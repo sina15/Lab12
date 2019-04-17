@@ -16,10 +16,13 @@ public class Quiz {
 
     private String activeQuest;
 
+
     Quiz(){
 
 
     }
+
+
 
     public  int[] getAnswers() {
         return answers;
@@ -37,4 +40,6 @@ public class Quiz {
     public void setActiveQuest(String activeQuest) {
         this.activeQuest = activeQuest;
     }
+
+
 }
